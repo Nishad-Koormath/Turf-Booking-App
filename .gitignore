@@ -1,0 +1,88 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.env
+.env
+
+# Django Specific
+db.sqlite3
+*.sqlite3
+/media/
+*.log
+local_settings.py
+instance/
+
+# Static and Media Files
+staticfiles/
+static/
+media/
+
+# VS Code Settings
+.vscode/
+
+# PyCharm Settings
+.idea/
+
+# MacOS Specific
+.DS_Store
+
+# Node.js (if using React/Next.js frontend in the same repo)
+node_modules/
+*.npm-debug.log
+package-lock.json
+yarn.lock
+
+# Migrations (Optional - If you don't want to track migrations)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Secrets (Important for Security)
+*.key
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
